@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "871098957222",
+    "firebase_url": "https://kerala-e46db.firebaseio.com",
+    "project_id": "kerala-e46db",
+    "storage_bucket": "kerala-e46db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871098957222:android:3cf88ae43e893daab22367",
+        "android_client_info": {
+          "package_name": "com.covid.c19_tamilnadu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871098957222-26bt0360t985l9gvnm3le6m4j3suipfr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.covid.c19_tamilnadu",
+            "certificate_hash": "f280f807c888c5ac3e4d78e2ab17cfebfc269e94"
+          }
+        },
+        {
+          "client_id": "871098957222-2tfji3jruqaau8shplabh5m4g4o4qv1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmdMiAHvDGpRalz12n0_XvtOQRcCvBiTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871098957222-2tfji3jruqaau8shplabh5m4g4o4qv1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871098957222:android:419ed6bf7028e884b22367",
+        "android_client_info": {
+          "package_name": "com.covid.c19_wb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871098957222-h3ln8m8rgmiqrupo02p1e97lcd69sthb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.covid.c19_wb",
+            "certificate_hash": "f280f807c888c5ac3e4d78e2ab17cfebfc269e94"
+          }
+        },
+        {
+          "client_id": "871098957222-2tfji3jruqaau8shplabh5m4g4o4qv1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmdMiAHvDGpRalz12n0_XvtOQRcCvBiTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871098957222-2tfji3jruqaau8shplabh5m4g4o4qv1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871098957222:android:60b39b1af1b3f12cb22367",
+        "android_client_info": {
+          "package_name": "com.covid.kerla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871098957222-fqlne7639aumctn33rl4aiahcjqb7ptb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.covid.kerla",
+            "certificate_hash": "f280f807c888c5ac3e4d78e2ab17cfebfc269e94"
+          }
+        },
+        {
+          "client_id": "871098957222-2tfji3jruqaau8shplabh5m4g4o4qv1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmdMiAHvDGpRalz12n0_XvtOQRcCvBiTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871098957222-2tfji3jruqaau8shplabh5m4g4o4qv1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871098957222:android:3ae97b8ad75eea12b22367",
+        "android_client_info": {
+          "package_name": "com.jntucep.c19_delhi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871098957222-l9hmcmshmo96ek1v1vj5vq0nkn5hq2js.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jntucep.c19_delhi",
+            "certificate_hash": "f280f807c888c5ac3e4d78e2ab17cfebfc269e94"
+          }
+        },
+        {
+          "client_id": "871098957222-2tfji3jruqaau8shplabh5m4g4o4qv1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmdMiAHvDGpRalz12n0_XvtOQRcCvBiTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871098957222-2tfji3jruqaau8shplabh5m4g4o4qv1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

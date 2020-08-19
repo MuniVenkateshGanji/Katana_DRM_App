@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView10"
+        android:layout_width="362dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="606dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/button_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="87dp"
+                android:layout_marginBottom="9dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Please Take a survey"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView_q8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/rating_array"
+                app:layout_constraintBottom_toTopOf="@+id/spinner3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.615"
+                app:layout_constraintStart_toEndOf="@+id/textView_q8"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.585" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:layout_column="1"
+                android:layout_marginTop="136dp"
+                android:entries="@array/rating_array"
+                app:layout_constraintBottom_toTopOf="@+id/spinner4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.978"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.301" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_row="7"
+                android:layout_column="1"
+                android:layout_marginBottom="44dp"
+                android:entries="@array/rating_array"
+                app:layout_constraintBottom_toTopOf="@+id/spinner5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.978"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.982" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_row="8"
+                android:layout_column="1"
+                android:entries="@array/rating_array"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.965"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.465" />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_row="9"
+                android:layout_column="1"
+                android:entries="@array/rating_array"
+                app:layout_constraintBottom_toTopOf="@+id/spinner7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.966"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner5"
+                app:layout_constraintVertical_bias="0.488" />
+
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_row="10"
+                android:layout_column="1"
+                android:entries="@array/rating_array"
+                app:layout_constraintBottom_toTopOf="@+id/spinner9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.978"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.927" />
+
+            <Spinner
+                android:id="@+id/spinner8"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_row="11"
+                android:layout_column="1"
+                android:entries="@array/rating_array"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.965"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.963" />
+
+            <Spinner
+                android:id="@+id/spinner9"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_row="12"
+                android:layout_column="1"
+                android:entries="@array/rating_array"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.965"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.773" />
+
+            <Spinner
+                android:id="@+id/spinner10"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_row="12"
+                android:layout_column="1"
+                android:entries="@array/rating_array"
+                app:layout_constraintBottom_toTopOf="@+id/spinner8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.978"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner9"
+                app:layout_constraintVertical_bias="0.683" />
+
+            <TextView
+                android:id="@+id/textView_q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_marginTop="376dp"
+                android:text="5.Do u have fever? : "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView_q2"
+                app:layout_constraintEnd_toStartOf="@+id/spinner7"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.477" />
+
+            <TextView
+                android:id="@+id/textView_q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:layout_marginBottom="28dp"
+                android:text="6.Dry cough? : "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView_q9"
+                app:layout_constraintEnd_toStartOf="@+id/spinner9"
+                app:layout_constraintHorizontal_bias="0.172"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.984" />
+
+            <TextView
+                android:id="@+id/textView_q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:layout_marginTop="132dp"
+                android:text="2. Over tiredness? : "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView_q4"
+                app:layout_constraintEnd_toStartOf="@+id/spinner3"
+                app:layout_constraintHorizontal_bias="0.209"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.111" />
+
+            <TextView
+                android:id="@+id/textView_q4"
+                android:layout_width="164dp"
+                android:layout_height="56dp"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:layout_marginTop="172dp"
+                android:text="3. Body pains and headache?: "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView_q5"
+                app:layout_constraintEnd_toStartOf="@+id/spinner4"
+                app:layout_constraintHorizontal_bias="0.153"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView_q5"
+                android:layout_width="172dp"
+                android:layout_height="52dp"
+                android:layout_row="8"
+                android:layout_column="0"
+                android:layout_marginTop="240dp"
+                android:text="4.loss of speech or movement: "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView_q6"
+                app:layout_constraintEnd_toStartOf="@+id/spinner5"
+                app:layout_constraintHorizontal_bias="0.192"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.794" />
+
+            <TextView
+                android:id="@+id/textView_q6"
+                android:layout_width="165dp"
+                android:layout_height="55dp"
+                android:layout_row="9"
+                android:layout_column="0"
+                android:text="6. loss of taste or smell? : "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView_q1"
+                app:layout_constraintEnd_toStartOf="@+id/spinner6"
+                app:layout_constraintHorizontal_bias="0.177"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.918" />
+
+            <TextView
+                android:id="@+id/textView_q8"
+                android:layout_width="209dp"
+                android:layout_height="55dp"
+                android:layout_row="11"
+                android:layout_column="0"
+                android:text="1.difficulty breathing or shortness of breath? : "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView_q3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.065"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.784" />
+
+            <TextView
+                android:id="@+id/textView_q9"
+                android:layout_width="136dp"
+                android:layout_height="59dp"
+                android:layout_row="12"
+                android:layout_column="0"
+                android:layout_marginTop="504dp"
+                android:text="7.chest pain or pressure : "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView_q10"
+                app:layout_constraintEnd_toStartOf="@+id/spinner10"
+                app:layout_constraintHorizontal_bias="0.175"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView_q10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="12"
+                android:layout_column="0"
+                android:text="8.diarrhoea : "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/spinner8"
+                app:layout_constraintHorizontal_bias="0.164"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.965" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_row="13"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:text="@string/submit"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</LinearLayout>
+</ScrollView>

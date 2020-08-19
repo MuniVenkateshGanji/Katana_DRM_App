@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Msme"
+   >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="332dp"
+        android:layout_height="585dp"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="59dp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/g_bold"
+                android:text="MSME Products"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="295dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:text="\t\t\t\tMSME stands for Micro, Small and Medium Enterprises. The business comes under this category are manufacturers and service providers. The Manufacturing sector businesses are the ones that are in the business of manufacturing and supplying goods like the following: Processed food."
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/g_bold"
+                android:text="Click Below to sign up"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/txtCredits"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

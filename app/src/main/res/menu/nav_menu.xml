@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="features">
+        <menu>
+            <item android:title="Maps"
+                android:icon="@drawable/ic_baseline_map_24"
+                android:onClick="maps"/>
+
+            <item android:title="Notifier"
+                android:icon="@drawable/ic_baseline_access_alarm_24"
+                android:onClick="notifier"/>
+
+            <item android:title="Helpline"
+                android:icon="@drawable/ic_baseline_call_24"
+                android:onClick="helpline"/>
+
+            <item android:title="Helpling Hands"
+                android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+                android:onClick="Help"/>
+
+            <item android:title="Msme registration"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:onClick="Msme"/>
+
+            <item android:title="Let's talk"
+
+                android:icon="@drawable/ic_chat_bubble_black_24dp"
+                android:onClick="talk"/>
+
+            <item android:title="E-pass"
+
+                android:icon="@drawable/ic_baseline_directions_car_24"
+                android:onClick="pass"/>
+
+            <item android:title="Vocational courses"
+                android:icon="@drawable/ic_baseline_people_24"
+                android:onClick="Vocational"/>
+        </menu>
+    </item>
+</menu>

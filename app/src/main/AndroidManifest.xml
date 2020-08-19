@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jntucep.c19_delhi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".topbar"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Detailed" android:screenOrientation="locked" android:windowSoftInputMode="stateHidden"/>
+
+
+
+        <activity android:name=".GoogleMapsActivity"/>
+        <activity android:name=".MapsActivity"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+        <activity android:name=".tollFree"/>
+
+        <activity android:name=".StateWiseReport"/>
+        <activity android:name=".shared"/>
+        <activity android:name=".register"/>
+        <activity android:name=".survey"/>
+
+        <activity android:name=".VerificationActivity_1"/>
+
+
+
+
+
+
+
+        <activity android:name=".funds"/>
+        <activity android:name=".CMRF"/>
+
+        <activity android:name=".PMCARES"/>
+        <activity android:name=".PMCARES2"/>
+        <activity android:name=".PMNRF"/>
+        <activity android:name=".PMNRF2"/>
+        <activity android:name=".PMNRF3"/>
+
+
+
+        <activity android:name=".upi"
+            android:theme="@style/Youtube"/>
+        <activity android:name=".upi1"
+            android:theme="@style/Youtube"/>
+        <activity android:name=".upi2"
+            android:theme="@style/Youtube" />
+
+        <activity android:name=".MainPage" />
+
+
+        <receiver android:name=".NotifierAlarm"/>
+        <receiver android:name=".Notification_reciver"/>
+
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity android:name=".SearchDoctor" />
+        <activity
+            android:name=".DoctorSignUp"
+            android:label="Sign Up" />
+        <activity
+            android:name=".ResultActivity"
+            android:label="Specialists" />
+        <activity
+            android:name=".DoctorDetails"
+            android:label="Personal Information"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".DoctorAbsent"
+            android:label="Unavailable Days"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.MinWidth" />
+
+
+        <activity android:name=".doctor"/>
+        <activity android:name=".DoctorLogin" />
+        <activity android:name=".PatientLogin" />
+        <activity android:name=".PatientSignUp" />
+        <activity android:name=".SearchOption" />
+        <activity android:name=".SearchOptionHandler.SearchOptionHandler" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".AddOptionHandler.AddOptionHandler" />
+        <activity android:name=".DoctorProfile" />
+        <activity android:name=".SearchResult.SearchResult" />
+        <activity android:name=".PatientProfile.PatientProfile" />
+        <activity android:name=".AppointmentList.AppointmentList" />
+        <activity android:name=".PermissionsActivity"/>
+        <activity
+            android:name=".profileSupport"
+            android:parentActivityName=".Settings"/>
+        <activity
+            android:name=".ChangePassword"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ChangePhoneNumber"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".changeusername"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".upload_labour"/>
+
+        <activity
+            android:name=".MapsActivityvol"
+            android:label="@string/title_activity_maps"/>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/SignUp"
+            android:noHistory="true"
+            android:parentActivityName=".Login"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ForgotPassword"
+            android:label="@string/ResetPassword"
+            android:noHistory="true"
+            android:parentActivityName=".Login"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainActivityvolunteer"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:parentActivityName=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyEvents"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".List_of_Events"
+            android:parentActivityName=".MyEvents"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".HostFinal"
+            android:noHistory="false"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".VolunteerEvents"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Waitlisted"
+            android:parentActivityName=".MyEvents"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Approved"
+            android:parentActivityName=".MyEvents"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Chatbox"
+            android:parentActivityName=".Approved"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".EventDescription1"
+            android:parentActivityName=".List_of_Events"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".EventDescription2"
+            android:parentActivityName=".VolunteerEvents" />
+        <activity
+            android:name=".EventDescription3"
+            android:parentActivityName=".Waitlisted" />
+        <activity
+            android:name=".EventDescription4"
+            android:parentActivityName=".Approved" />
+
+        <activity
+            android:name=".Gallery"
+            android:parentActivityName=".Profile" />
+
+        <activity android:name=".watsonbot"
+            android:theme="@style/theme"/>
+        <activity
+            android:name=".Login"
+            android:label="Volunteer"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustPan"/>
+
+        <activity
+            android:name=".feedbacktab"
+            android:label="Feedback"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".Settings"
+            android:parentActivityName=".Profile" />
+
+        <activity
+            android:name=".CalenderActivity"
+            android:noHistory="false"
+            android:parentActivityName=".HostAnEvent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Transact"
+            android:label="Transact"
+            android:parentActivityName=".Profile"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".HostAnEvent"
+            android:noHistory="false"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".Wallet"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Profile"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".accountsettings"
+            android:parentActivityName=".Settings"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Terms_conditions"
+            android:parentActivityName=".Settings" />
+
+        <activity android:name=".E_pass"/>
+
+
+        <activity android:name=".Transport"/>
+        <activity android:name=".essential"/>
+        <activity android:name=".Youtube"/>
+        <activity android:name=".orphans"/>
+        <activity android:name=".Msme"/>
+    </application>
+    <permission
+        android:name=".permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="com.example.ishita.assigntasks.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

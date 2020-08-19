@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">C19_Delhi</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="please_verify_your_number">Welcome to Karunya</string>
+    <string name="your_phone_number">Your Phone number!</string>
+    <string name="action_sign_in">Log in!</string>
+    <string name="otp">Enter Otp</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="please_type_the_verification_code">Please type the verification code</string>
+    <string name="what_s_on_your_mind">Chat with me please.....</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="txtCredits"><a href="https://msme.gov.in/user">Signup</a></string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="comments">Comments</string>
+    <string name="save_task">Save Task</string>
+    <string name="due_date">Due Date</string>
+    <string name="assignee_prompt">Enter Assignee Name</string>
+    <string name="task_prompt">Enter Task Description</string>
+
+    <string name="title_activity_comments">CommentsActivity</string>
+    <string name="send">Send</string>
+    <string name="send_btn">Send Message</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="no_task_details">Task details not fetched yet.</string>
+    <string name="swipe_right_to_save">You can also swipe right to save this task</string>
+    <string name="due_date_validation">Due date cannot be earlier than today.</string>
+    <string name="error_field_required">Fields cannot be empty. Please enter some values.</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_number">This phone number is invalid.</string>
+    <string name="error_invalid_password">This password is too short.</string>
+    <string name="error_incorrect_password">This password is incorrect.</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="Login">Username/Number</string>
+    <string name="Password">Password</string>
+    <string name="ForgotPassword"><u>Forgot Password?</u></string>
+    <string name="ResetPassword">Reset Password</string>
+    <string name="SignUp"><u>Don\'t have an account?</u></string>
+    <string name="Button">Sign in</string>
+    <string name="ShowPassword">ShowPassword</string>
+    <string name="LoginPage">Login</string>
+    <string name="NewPassword">NewPassword</string>
+    <string name="ConfirmNewPassword">ConfirmPassword</string>
+    <string name="Reset">Reset</string>
+    <string name="changepassword">Change Password</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="approved">Approved</string>
+    <string name="waitlisted">Unapproved</string>
+
+    <string name="list_of_events">LIST OF EVENTS</string>
+
+
+    <string name="Report">Report</string>
+    <string name="ReportName">UserName/Email</string>
+    <string name="reportsubmit">Submit</string>
+    <string name="reportemail">Email</string>
+    <string name="reportevent">Event he/she in</string>
+    <string name="reportreason">Reason</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="send_button_label">Send</string>
+    <string name="feedback">FeedBack</string>
+    <string name="feedbackname">Name</string>
+    <string name="feedbackemail">Email</string>
+    <string name="feedbacksubject">Subject</string>
+    <string name="feedbacksuggestions">Suggestions</string>
+    <string name="feedbacksubmit">Send Feedback</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_application_id" translatable="false">YOUR_APP_ID</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">YOUR_CONSUMER_KEY</string>
+    <string name="twitter_consumer_secret" translatable="false">YOUR_CONSUMER_SECRET</string>
+
+    <string name="urology">Urology</string>
+    <string name="hematology">Hematology</string>
+    <string name="orthopaedics">Orthopaedics</string>
+    <string name="gynaecology">Gynaecology</string>
+    <string name="respiratory">Respiratory</string>
+    <string name="paediatrics">Paediatrics</string>
+    <string name="cardiology">Cardiology</string>
+    <string name="ent">ENT</string>
+    <string name="neurology">Neurology</string>
+    <string name="gastroenterology">Gastroenterology</string>
+    <string name="eye">Eye</string>
+    <string name="psychiatry">Psychiatry</string>
+    <string name="skin">Skin</string>
+    <string name="hepatology">Hepatology</string>
+    <string name="dental">Dental</string>
+    <string name="oncology">Oncology</string>
+    <string name="rheumatology">Rheumatology</string>
+    <string name="nutritionist">Nutritionist</string>
+    <string name="dermatology">Dermatology</string>
+    <string name="endocrinology">Endocrinology</string>
+
+
+    <string name="select_specialist">Select a specialist</string>
+    <string name="you_can_add_remainder_in_t_t_t_t_t_t_t_t_t_t_tthis_place">you can add remainder in \t\t\t\t\t\t\t\t\t\t\tthis place</string>
+    <string name="todo">TODO</string>
+    <string name="remainder">remainder</string>
+    <string name="emergency">Emergency</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="specialist_arrays">
+        <item>@string/urology</item>
+        <item>@string/hematology</item>
+        <item>@string/orthopaedics</item>
+        <item>@string/gynaecology</item>
+        <item>@string/respiratory</item>
+        <item>@string/paediatrics</item>
+        <item>@string/cardiology</item>
+        <item>@string/ent</item>
+        <item>@string/neurology</item>
+        <item>@string/gastroenterology</item>
+        <item>@string/eye</item>
+        <item>@string/psychiatry</item>
+        <item>@string/skin</item>
+        <item>@string/hepatology</item>
+        <item>@string/dental</item>
+        <item>@string/oncology</item>
+        <item>@string/rheumatology</item>
+        <item>@string/nutritionist</item>
+        <item>@string/dermatology</item>
+        <item>@string/endocrinology</item>
+    </string-array>
+
+    <string-array name="week_arrays">
+        <item>Choose a day...</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="days_arrays">
+        <item>Choose a date...</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+ <string name="funds">funds</string>
+        <string name="submit">SUBMIT</string>
+        <string name="pm_cares_funds">PM-CARES FUNDS</string>
+        <string name="a_c_name_pmcares">A/C NAME: PMCARES</string>
+        <string name="click_here">Click here</string>
+        <string name="for_other_details_go_through_the">For Other Details go through the</string>
+        <string name="upi_id_pmcares_sbi">UPI ID: pmcares@sbi</string>
+        <string name="ifsc_code_sbin0000691">IFSC CODE: SBIN0000691</string>
+        <string name="a_c_no_2121pm20202">A/C NO: 2121PM20202</string>
+        <string name="pm_national_relief_fund">PM NATIONAL RELIEF FUND</string>
+        <string name="click_here1">Click here</string>
+        <string name="for_other_details1">For Other Details</string>
+        <string name="upi_hrycoronarelieffund_sbi">UPI: 	pbcmrf@hdfcbank</string>
+        <string name="ifsc_sbin0001509">IFSC: HDFC0000213</string>
+        <string name="a_c_no_39234755902">A/C NO: 50100333026124</string>
+        <string name="pm_cares">PM CARES</string>
+        <string name="click_here2">Click here</string>
+        <string name="for_all_details_and_bank_payments2">For All Details And Bank Payments</string>
+        <string name="click_here4">Click here</string>
+        <string name="for_direct_a_c_donation">For Direct A/C Donation</string>
+        <string name="upi_pmnrf_centralbank">UPI: pmnrf@centralbank</string>
+        <string name="cm_relief_fund">CM RELIEF FUND</string>
+
+
+</resources>
