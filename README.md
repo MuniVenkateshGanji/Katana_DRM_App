@@ -1,5 +1,9 @@
 <h1>Katana</h1>
 <h2>A DRM app</h2>
+
+<img src="app\src\main\res\mipmap-xxxhdpi/ic_launcher_round.png"/>
+
+
 Short Description:
 	               A disaster risk management app for All states in India
 Long Description:
