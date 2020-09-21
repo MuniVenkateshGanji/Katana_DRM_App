@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.blackfizz:eazegraph:1.2.2@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/a1be26da93be61722ef6513e85f516f3/jetified-eazegraph-1.2.2/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/a1be26da93be61722ef6513e85f516f3/jetified-eazegraph-1.2.2/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/a1be26da93be61722ef6513e85f516f3/jetified-eazegraph-1.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/31566e6247ad5a4fb757fcf16d44716d/jetified-eazegraph-1.2.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/31566e6247ad5a4fb757fcf16d44716d/jetified-eazegraph-1.2.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/31566e6247ad5a4fb757fcf16d44716d/jetified-eazegraph-1.2.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/modules-2/files-2.1/com.github.blackfizz/eazegraph/1.2.2/8d4c6966fbed1ee7ed6f3fb82c8c4c58fd810903/eazegraph-1.2.2-javadoc.jar!/" />

@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.bumptech.glide:glide:4.9.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/9c79970d323da2fd3f4c9a4b717be83f/jetified-glide-4.9.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/9c79970d323da2fd3f4c9a4b717be83f/jetified-glide-4.9.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/9c79970d323da2fd3f4c9a4b717be83f/jetified-glide-4.9.0/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/101d55a5a871be5aee80cf6fb77c9f55/jetified-glide-4.9.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/101d55a5a871be5aee80cf6fb77c9f55/jetified-glide-4.9.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/101d55a5a871be5aee80cf6fb77c9f55/jetified-glide-4.9.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.9.0/b53be1dd9e86c008d96d319510846282f95c49f/glide-4.9.0-javadoc.jar!/" />

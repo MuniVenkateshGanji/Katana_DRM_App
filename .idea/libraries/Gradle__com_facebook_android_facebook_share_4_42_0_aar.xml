@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.android:facebook-share:4.42.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/1b0becd145063c16d5f4eaf6c347436a/jetified-facebook-share-4.42.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/1b0becd145063c16d5f4eaf6c347436a/jetified-facebook-share-4.42.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/1b0becd145063c16d5f4eaf6c347436a/jetified-facebook-share-4.42.0/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/22dededf953f00d85d83d5e332eb065d/jetified-facebook-share-4.42.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/22dededf953f00d85d83d5e332eb065d/jetified-facebook-share-4.42.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/22dededf953f00d85d83d5e332eb065d/jetified-facebook-share-4.42.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/modules-2/files-2.1/com.facebook.android/facebook-share/4.42.0/3e09e423eaa79903ec9d4d02df95ce3be786ecdf/facebook-share-4.42.0-javadoc.jar!/" />

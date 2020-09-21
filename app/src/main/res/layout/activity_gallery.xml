@@ -10,9 +10,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimary"
         android:elevation="4dp"
-        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/AlertDialog.AppCompat.Light"
         tools:ignore="MissingConstraints" />
 
@@ -41,7 +39,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="50"
-            android:background="@drawable/round_button"
             android:text="Upload photo" />
 
 

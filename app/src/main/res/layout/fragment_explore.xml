@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbars="none"
     >
     <FrameLayout
         android:layout_width="match_parent"
@@ -17,7 +18,6 @@
             android:id="@+id/constraintLayout"
             android:layout_width="match_parent"
             android:layout_height="281dp"
-            android:background="@drawable/home_bg"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +71,6 @@
                         android:layout_marginStart="4dp"
                         android:fontFamily="@font/regular"
                         android:text="Active"
-                        android:textColor="#1E2432"
                         android:textSize="11sp"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
                         app:layout_constraintStart_toEndOf="@+id/imageView9"
@@ -84,7 +83,6 @@
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/bold"
                         android:text="0"
-                        android:textColor="#1E2432"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="@+id/imageView9"
                         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
@@ -96,7 +94,6 @@
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/regular"
                         android:text="People"
-                        android:textColor="#1E2432"
                         android:textSize="9sp"
                         app:layout_constraintStart_toStartOf="@+id/textView8"
                         app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -151,7 +148,6 @@
                         android:layout_marginStart="4dp"
                         android:fontFamily="@font/regular"
                         android:text="Total Recovered"
-                        android:textColor="#1E2432"
                         android:textSize="11sp"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
                         app:layout_constraintStart_toEndOf="@+id/imageView8"
@@ -164,7 +160,6 @@
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/bold"
                         android:text="0"
-                        android:textColor="#1E2432"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="@+id/imageView8"
                         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
@@ -176,7 +171,7 @@
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/regular"
                         android:text="People"
-                        android:textColor="#1E2432"
+
                         android:textSize="9sp"
                         app:layout_constraintStart_toStartOf="@+id/textView6"
                         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -233,7 +228,6 @@
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/bold"
                         android:text="0"
-                        android:textColor="#1E2432"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="@+id/imageView6"
                         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
@@ -245,7 +239,6 @@
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/regular"
                         android:text="People"
-                        android:textColor="#1E2432"
                         android:textSize="9sp"
                         app:layout_constraintStart_toStartOf="@+id/textView5"
                         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -257,7 +250,6 @@
                         android:layout_marginStart="4dp"
                         android:fontFamily="@font/regular"
                         android:text="Confirmed Cases"
-                        android:textColor="#1E2432"
                         android:textSize="11sp"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
                         app:layout_constraintStart_toEndOf="@+id/imageView6"
@@ -314,7 +306,6 @@
                         android:layout_marginStart="4dp"
                         android:fontFamily="@font/regular"
                         android:text="Total Death"
-                        android:textColor="#1E2432"
                         android:textSize="11sp"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
                         app:layout_constraintStart_toEndOf="@+id/imageView7"
@@ -327,7 +318,7 @@
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/bold"
                         android:text="0"
-                        android:textColor="#1E2432"
+
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="@+id/imageView7"
                         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
@@ -339,7 +330,6 @@
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/regular"
                         android:text="People"
-                        android:textColor="#1E2432"
                         android:textSize="9sp"
                         app:layout_constraintStart_toStartOf="@+id/textView7"
                         app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -353,22 +343,47 @@
             android:id="@+id/include3"
             layout="@layout/activity_details"
             android:layout_width="match_parent"
-            android:layout_height="370dp"
-            app:layout_constraintBottom_toTopOf="@+id/include"
+            android:layout_height="400dp"
+            app:layout_constraintBottom_toTopOf="@+id/include4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
+        <include android:id="@+id/include4"
+            layout="@layout/activity_details1"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/geo"
+            app:layout_constraintTop_toBottomOf="@+id/include3"/>
+        <include android:id="@+id/geo"
+            layout="@layout/geofence"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/vaccine"
+            app:layout_constraintTop_toBottomOf="@+id/include4"/>
+        <include android:id="@+id/vaccine"
+            layout="@layout/vaccine"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/include"
+            app:layout_constraintTop_toBottomOf="@+id/geo"/>
+
         <include
             android:id="@+id/include"
             layout="@layout/activity_hor"
-            android:layout_width="0dp"
-            android:layout_height="73dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/include3" />
+            app:layout_constraintTop_toBottomOf="@+id/vaccine" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     </FrameLayout>
 </ScrollView>

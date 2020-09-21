@@ -13,7 +13,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Choose Location"
-            android:textColor="@color/common_google_signin_btn_text_dark_focused"
             android:textSize="25sp"
             android:layout_gravity="center"
             android:gravity="center"/>
@@ -65,7 +64,6 @@
             android:layout_alignParentRight="true"
             android:id="@+id/FinalStep"
             android:padding="25sp"
-            android:background="@drawable/round_button"
             android:text="Host"/>
         <Button
             android:layout_width="wrap_content"
@@ -73,7 +71,6 @@
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:padding="25sp"
-            android:background="@drawable/round_button"
             android:id="@+id/GoBack"
             android:text="Go back"
             />

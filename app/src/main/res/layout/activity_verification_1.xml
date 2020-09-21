@@ -4,91 +4,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VerificationActivity_1"
-    >
-
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/clr_otp_bg"
+    tools:context=".VerificationActivity_1">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/otp"
+        android:layout_width="0dp"
+        android:clickable="true"
+        android:layout_height="0dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="18dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btn"
-            android:layout_width="112dp"
-            android:layout_height="62dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="149dp"
-            android:layout_marginEnd="150dp"
-            android:layout_marginBottom="302dp"
-            android:background="@drawable/button_background"
-            android:text="@string/action_sign_in" />
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/koho_bold"
+        android:gravity="center"
+        android:text="@string/please_type_the_verification_code"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteY="111dp" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/frst_ll"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="60dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/verification_code"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteY="253dp" />
 
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="191dp"
+        android:layout_height="61dp"
+        android:background="@color/clr_grey_text_transparent"
+        android:gravity="center"
+        android:hint="@string/otp"
+        android:inputType="numberPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="399dp" />
 
-            <EditText
-                android:id="@+id/name"
-                android:layout_width="234dp"
-                android:layout_height="50dp"
-                android:layout_marginEnd="8dp"
-                android:background="@color/clr_grey_text_transparent"
-                android:gravity="center"
-                android:hint="@string/otp"
-                android:inputType="numberPassword"
-                android:textColor="@color/clr_white_text"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_sign_in"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="572dp" />
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/frst_ll"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:orientation="vertical">
-
-            <ProgressBar
-                android:id="@+id/progressbar"
-                style="?android:attr/progressBarStyle"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
-                android:layout_marginTop="-214dp"
-                android:visibility="gone" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:text="@string/please_type_the_verification_code"
-                android:textColor="@color/clr_grey_text"
-                android:textSize="15sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/verification_code"
-                android:textColor="@color/clr_white_text"
-                android:textSize="25sp" />
-
-        </LinearLayout>
-
-    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

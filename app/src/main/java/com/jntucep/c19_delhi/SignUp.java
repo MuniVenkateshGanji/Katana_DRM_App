@@ -2,6 +2,7 @@ package com.jntucep.c19_delhi;
 
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -42,6 +43,19 @@ public class SignUp extends AppCompatActivity {
         final Button signup =(Button)findViewById(R.id.signup);
         androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        int nightModeFlags =
+                toolbar.getContext().getResources().getConfiguration().uiMode &
+                        Configuration.UI_MODE_NIGHT_MASK;
+        switch (nightModeFlags) {
+            case Configuration.UI_MODE_NIGHT_YES:
+                toolbar.setBackgroundColor(getResources().getColor(R.color.black));
+                break;
+
+            case Configuration.UI_MODE_NIGHT_NO:
+                toolbar.setBackgroundColor(getResources().getColor(R.color.white));
+                break;
+
+        }
         setTitle("Sign Up");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

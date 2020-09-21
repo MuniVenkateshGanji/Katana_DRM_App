@@ -136,12 +136,12 @@ public class MainPage extends AppCompatActivity {
                         PendingIntent intent1 = PendingIntent.getBroadcast(MainPage.this, reminders.getId(), intent, PendingIntent.FLAG_UPDATE_CURRENT);
                         AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
                         alarmManager.setExact(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), intent1);
-                        Toast.makeText(MainPage.this, "Welcome to c19_delhi", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainPage.this, "Welcome to Katana", Toast.LENGTH_SHORT).show();
                         setItemsInRecyclerView();
                         AppDatabase.destroyInstance();
                         dialog.dismiss();
                         finish();
-                        Intent in = new Intent(MainPage.this, topbar.class);
+                        Intent in = new Intent(MainPage.this, PermissionsActivity.class);
                         startActivity(in);
                         finish();
                     }

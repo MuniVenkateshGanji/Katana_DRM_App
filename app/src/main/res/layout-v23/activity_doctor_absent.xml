@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
-
     android:orientation="vertical"
-    tools:context="com.example.katana.DoctorAbsent">
+    tools:context=".DoctorAbsent">
 
     <TextView
         android:layout_width="match_parent"

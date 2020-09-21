@@ -37,7 +37,6 @@
                 android:fontFamily="@font/regular"
                 android:gravity="center"
                 android:text="Arunachal Pradesh"
-                android:textColor="#000"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
@@ -69,7 +68,7 @@
                             android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="500"
-                            android:textColor="#000"
+
                             android:textSize="23sp"
                             android:textStyle="bold" />
 
@@ -80,7 +79,6 @@
                             android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="Confirmed"
-                            android:textColor="#000"
                             android:textSize="15sp" />
                     </LinearLayout>
 
@@ -99,7 +97,6 @@
                             android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="500"
-                            android:textColor="#000"
                             android:textSize="23sp"
                             android:textStyle="bold" />
 
@@ -110,7 +107,6 @@
                             android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="Active"
-                            android:textColor="#000"
                             android:textSize="15sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -135,7 +131,6 @@
                             android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="50"
-                            android:textColor="#000"
                             android:textSize="23sp"
                             android:textStyle="bold" />
 
@@ -146,7 +141,6 @@
                             android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="Recovered"
-                            android:textColor="#000"
                             android:textSize="15sp" />
                     </LinearLayout>
 
@@ -165,7 +159,6 @@
                             android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="20"
-                            android:textColor="#000"
                             android:textSize="23sp"
                             android:textStyle="bold" />
 
@@ -176,7 +169,6 @@
                             android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="deceased"
-                            android:textColor="#000"
                             android:textSize="15sp" />
                     </LinearLayout>
                 </LinearLayout>

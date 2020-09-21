@@ -53,7 +53,7 @@ public class DoctorAbsent extends AppCompatActivity {
 
                 if (!strDate.isEmpty()) {
 
-                    String user_id = ((Shareddoc) DoctorAbsent.this.getApplication()).readData("user_id");
+                    String user_id = ((shareddoc) DoctorAbsent.this.getApplicationContext()).readData("user_id");
 
                     makeAppointment(doc_id, user_id, strDate);
 

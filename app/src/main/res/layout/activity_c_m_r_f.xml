@@ -16,7 +16,6 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_margin="10dp"
-        android:textColorHighlight="@color/colorPrimaryDark"
         android:layout_gravity="center_horizontal"
         />
     <TextView
@@ -26,8 +25,6 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_margin="15dp"
-        android:textColorHighlight="@color/colorPrimaryDark"
-        android:textColor="#000"
         android:longClickable="true"
         android:enabled="true"
         android:textIsSelectable="true"
@@ -40,8 +37,6 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_margin="15dp"
-        android:textColorHighlight="@color/colorPrimaryDark"
-        android:textColor="#000"
         android:longClickable="true"
         android:enabled="true"
         android:textIsSelectable="true"
@@ -72,8 +67,6 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_margin="10dp"
-        android:textColorHighlight="@color/colorPrimaryDark"
-        android:textColor="#000"
         />
     <TextView
         android:id="@+id/text4"

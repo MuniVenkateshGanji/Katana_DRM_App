@@ -48,6 +48,7 @@ public class List_of_Events extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         setTitle("Hosted Events");
+        
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         mAuth = FirebaseAuth.getInstance();

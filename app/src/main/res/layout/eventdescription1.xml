@@ -54,7 +54,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Location: "
-            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
 
@@ -75,7 +74,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Date: "
-            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -98,7 +96,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Payment:"
-            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -120,7 +117,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Event Description: "
-        android:textColor="@android:color/black"
         android:textSize="20sp" />
 
     <TextView
@@ -142,9 +138,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="CHAT"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/round_button"
-        android:backgroundTint="@color/blue700"
         android:layout_marginBottom="20dp"/>
     <LinearLayout
     android:layout_width="match_parent"
@@ -171,9 +164,6 @@
         android:layout_weight="1" />
 
 </LinearLayout>
-
-
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -183,8 +173,6 @@
         android:textStyle="bold"
         android:textSize="25sp"
         android:gravity="center"/>
-
-
         <ListView
             android:id="@+id/listview_reqVol"
             android:layout_width="match_parent"

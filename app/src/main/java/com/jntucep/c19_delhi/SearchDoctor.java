@@ -41,17 +41,19 @@ public class SearchDoctor extends AppCompatActivity implements AdapterView.OnIte
         ArrayAdapter<DivisionData> spinnerArrayAdapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_spinner_item, new DivisionData[]{
                 new DivisionData(0, "Select..."),
-                new DivisionData(1, "New Delhi"),
-                new DivisionData(2, "North Delhi"),
-                new DivisionData(3, "North West Delhi"),
-                new DivisionData(4, "West Delhi	"),
-                new DivisionData(5, "South West Delhi"),
-                new DivisionData(6, "South Delhi"),
-                new DivisionData(7, "South East Delhi"),
-                new DivisionData(8, "Central Delhi"),
-                new DivisionData(9, "North East Delhi"),
-                new DivisionData(10, "Shahdara"),
-                new DivisionData(11, "East Delhi"),
+                new DivisionData(1, "Anantapur"),
+                new DivisionData(2, "Chittoor"),
+                new DivisionData(3, "East Godavari"),
+                new DivisionData(4, "West Godavari"),
+                new DivisionData(5, "Guntur"),
+                new DivisionData(6, "YSR Kadapa"),
+                new DivisionData(7, "Krishna"),
+                new DivisionData(8, "Kurnool"),
+                new DivisionData(9, "Nellore"),
+                new DivisionData(10, "Prakasam"),
+                new DivisionData(11, "Srikakulam"),
+                new DivisionData(12, "Visakhapatnam"),
+                new DivisionData(13, "Vizianagaram")
 
 
         });
@@ -120,51 +122,28 @@ public class SearchDoctor extends AppCompatActivity implements AdapterView.OnIte
 
                 break;
             }
-            case "New Delhi": {
+            case "Anantapur": {
                 ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
                         android.R.layout.simple_spinner_item, new DistrictData[]{
                         new DistrictData(0, "Select..."),
-                        new DistrictData(1, "Chanakyapuri"),
-                        new DistrictData(2, "Delhi Cantonment"),
-						new DistrictData(3, "Vasant Vihar"),
-						new DistrictData(4, "Other"),
-						
-												
-						
-						
+                        new DistrictData(1, "Anantapur "),
+                        new DistrictData(2, "Dharmavaram"),
+                        new DistrictData(3, "Kadiri"),
+                        new DistrictData(4, "Kalyandurg"),
+                        new DistrictData(5, "Penukonda"),
                 });
                 spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                 spinnerDistrict.setAdapter(spinnerArrayAdapter);
 
                 break;
             }
-            case "North Delhi": {
+            case "Chittoor": {
                 ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
                         android.R.layout.simple_spinner_item, new DistrictData[]{
                         new DistrictData(0, "Select..."),
-                        new DistrictData(5, "Model Town"),
-						new DistrictData(6, "Narela"),
-						new DistrictData(7, "Alipur"),
-						new DistrictData(8, "Other"),
-						
-                       
-						
-                });
-                spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                spinnerDistrict.setAdapter(spinnerArrayAdapter);
-
-                break;
-            }
-            case "North West Delhi": {
-                ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
-                        android.R.layout.simple_spinner_item, new DistrictData[]{
-                        new DistrictData(0, "Select..."),
-                        new DistrictData(9, "Rohini"),
-                        new DistrictData(10, "Kanjhawala"),
-                        new DistrictData(11, "Saraswati Vihar"),
-						new DistrictData(12, "Other"),
-                        
-                       
+                        new DistrictData(6, "Chittoor"),
+                        new DistrictData(7, "Madanapalle"),
+                        new DistrictData(8, "Triupati"),
 
                 });
                 spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -172,16 +151,17 @@ public class SearchDoctor extends AppCompatActivity implements AdapterView.OnIte
 
                 break;
             }
-            case "West Delhi": {
+            case "East Godavari": {
                 ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
                         android.R.layout.simple_spinner_item, new DistrictData[]{
                         new DistrictData(0, "Select..."),
-                        new DistrictData(13, "Patel Nagar"),
-                        new DistrictData(14, "Punjabi Bagh"),
-                        new DistrictData(15, "Rajouri Garden"),
-                        new DistrictData(16, "Other"),
-						
-                        
+                        new DistrictData(9, "Amalapuram"),
+                        new DistrictData(10, "Etapaka"),
+                        new DistrictData(11, "Kakinada"),
+                        new DistrictData(12, "Peddapuram"),
+                        new DistrictData(13, "Rajamundry"),
+                        new DistrictData(14, "Ramachandrapuram"),
+                        new DistrictData(15, "Rampachodavaram"),
 
                 });
                 spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -189,51 +169,14 @@ public class SearchDoctor extends AppCompatActivity implements AdapterView.OnIte
 
                 break;
             }
-            case "South West Delhi": {
+            case "West Godavari": {
                 ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
                         android.R.layout.simple_spinner_item, new DistrictData[]{
                         new DistrictData(0, "Select..."),
-                        new DistrictData(17, "Dwarka"),
-                        new DistrictData(18, "Najafgarh"),
-						new DistrictData(19, "Kapashera"),
-                        new DistrictData(20, "Other"),
-						
-						
-						
-						
-                });
-                spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                spinnerDistrict.setAdapter(spinnerArrayAdapter);
-
-                break;
-            }
-            case "South Delhi": {
-                ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
-                        android.R.layout.simple_spinner_item, new DistrictData[]{
-                        new DistrictData(0, "Select..."),
-                        new DistrictData(21, "Saket"),
-                        new DistrictData(22, "Hauz Khas"),
-						new DistrictData(23, "Mehrauli"),
-						new DistrictData(24, "Other"),
-						
-						
-                });
-                spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                spinnerDistrict.setAdapter(spinnerArrayAdapter);
-
-                break;
-            }
-            case "South East Delhi": {
-                ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
-                        android.R.layout.simple_spinner_item, new DistrictData[]{
-                        new DistrictData(0, "Select..."),
-                        new DistrictData(25, "Defence Colony"),
-                        new DistrictData(26, "Kalkaji"),
-						new DistrictData(27, "Sarita Vihar"),
-						new DistrictData(28, "Other"),
-                        
-						
-                       
+                        new DistrictData(16, "ELURU"),
+                        new DistrictData(17, "Jangareddygudem"),
+                        new DistrictData(18, "Kovvur"),
+                        new DistrictData(19, "Narasapuram"),
 
                 });
                 spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -241,30 +184,70 @@ public class SearchDoctor extends AppCompatActivity implements AdapterView.OnIte
 
                 break;
             }
-            case "Central Delhi": {
+            case "Guntur": {
                 ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
                         android.R.layout.simple_spinner_item, new DistrictData[]{
                         new DistrictData(0, "Select..."),
-                        new DistrictData(29, "Kotwali"),
-						new DistrictData(30, "Civil Lines"),
-						new DistrictData(31, "Karol Bagh"),
-						new DistrictData(32, "Other"),
-                       
+                        new DistrictData(20, "Guntur"),
+                        new DistrictData(21, "Tenali"),
+                        new DistrictData(22, "Narasaraopet"),
+                        new DistrictData(23, "Gurazala"),
                 });
                 spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                 spinnerDistrict.setAdapter(spinnerArrayAdapter);
 
                 break;
             }
-            case "North East Delhi": {
+            case "YSR Kadapa": {
                 ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
                         android.R.layout.simple_spinner_item, new DistrictData[]{
                         new DistrictData(0, "Select..."),
-                        new DistrictData(33, "Seelampur"),
-						new DistrictData(34, "Yamuna Vihar"),
-						new DistrictData(35, "Karawal Nagar"),
-						new DistrictData(36, "Other"),
-                        
+                        new DistrictData(24, "Kadapa"),
+                        new DistrictData(25, "Rajampeta"),
+                        new DistrictData(26, "Jamalamadugu"),
+                });
+                spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                spinnerDistrict.setAdapter(spinnerArrayAdapter);
+
+                break;
+            }
+            case "Krishna": {
+                ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
+                        android.R.layout.simple_spinner_item, new DistrictData[]{
+                        new DistrictData(0, "Select..."),
+                        new DistrictData(27, "Machilipatnam"),
+                        new DistrictData(28, "Gudivada"),
+                        new DistrictData(29, "Vijayawada"),
+                        new DistrictData(30, "Nuzvid"),
+
+                });
+                spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                spinnerDistrict.setAdapter(spinnerArrayAdapter);
+
+                break;
+            }
+            case "Kurnool": {
+                ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
+                        android.R.layout.simple_spinner_item, new DistrictData[]{
+                        new DistrictData(0, "Select..."),
+                        new DistrictData(31, "Kurnool"),
+                        new DistrictData(32, "Nandyal"),
+                        new DistrictData(33, "Adoni"),
+                });
+                spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                spinnerDistrict.setAdapter(spinnerArrayAdapter);
+
+                break;
+            }
+            case "Nellore": {
+                ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
+                        android.R.layout.simple_spinner_item, new DistrictData[]{
+                        new DistrictData(0, "Select..."),
+                        new DistrictData(34, "Atmakur"),
+                        new DistrictData(35, "Naidupeta"),
+                        new DistrictData(36, "Nellore"),
+                        new DistrictData(37, "Gudur"),
+                        new DistrictData(38, "Kavali"),
 
                 });
                 spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -274,33 +257,57 @@ public class SearchDoctor extends AppCompatActivity implements AdapterView.OnIte
             }
 
 
-            case "Shahdara": {
+            case "Prakasam": {
                 ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
                         android.R.layout.simple_spinner_item, new DistrictData[]{
                         new DistrictData(0, "Select..."),
-                        new DistrictData(37, "Shahdara"),
-                        new DistrictData(38, "Seemapuri"),
-                        new DistrictData(39, "Vivek Vihar"),
-						new DistrictData(40, "Other"),
-                       
-						
+                        new DistrictData(39, "Kandukur "),
+                        new DistrictData(40, "Markapur "),
+                        new DistrictData(41, "Ongole "),
                 });
                 spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                 spinnerDistrict.setAdapter(spinnerArrayAdapter);
 
                 break;
             }
-            case "East Delhi": {
+            case "Srikakulam": {
                 ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
                         android.R.layout.simple_spinner_item, new DistrictData[]{
                         new DistrictData(0, "Select..."),
-                        new DistrictData(41, "Gandhi Nagar"),
-						new DistrictData(42, "Preet Vihar"),
-						new DistrictData(43, "Mayur Vihar"),
-						new DistrictData(44, "Other"),
-                        
-						
-						
+                        new DistrictData(42, "palakonda "),
+                        new DistrictData(43, "Srikakulam  "),
+                        new DistrictData(44, "Tekkali "),
+                });
+                spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                spinnerDistrict.setAdapter(spinnerArrayAdapter);
+
+                break;
+            }
+
+            case "Visakhapatnam": {
+                ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
+                        android.R.layout.simple_spinner_item, new DistrictData[]{
+                        new DistrictData(0, "Select..."),
+                        new DistrictData(45, "Anakapalle  "),
+                        new DistrictData(46, "Narsipatnam "),
+                        new DistrictData(47, "Paderu  "),
+                        new DistrictData(48, "Visakhapatnam  "),
+
+                });
+                spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                spinnerDistrict.setAdapter(spinnerArrayAdapter);
+
+                break;
+            }
+
+            case "Vizianagaram": {
+                ArrayAdapter<DistrictData> spinnerArrayAdapter = new ArrayAdapter<>(this,
+                        android.R.layout.simple_spinner_item, new DistrictData[]{
+                        new DistrictData(0, "Select..."),
+                        new DistrictData(63, "Parvathipuram   "),
+                        new DistrictData(64, "Vizianagaram    "),
+
+
                 });
                 spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                 spinnerDistrict.setAdapter(spinnerArrayAdapter);
@@ -380,6 +387,5 @@ public class SearchDoctor extends AppCompatActivity implements AdapterView.OnIte
         if (((CheckBox) findViewById(R.id.checkbox19)).isChecked()) {
             specialist.add("20");
         }
-
     }
 }

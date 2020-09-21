@@ -63,7 +63,7 @@ public class DoctorDetails extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if (((Shareddoc) DoctorDetails.this.getApplication()).readData("session").equals("true")) {
+                if (((shareddoc) DoctorDetails.this.getApplicationContext()).readData("session").equals("true")) {
                     Intent intent = new Intent(getApplicationContext(), DoctorAbsent.class);
                     intent.putExtra("id", getIntent().getExtras().getInt("id"));
                     startActivity(intent);

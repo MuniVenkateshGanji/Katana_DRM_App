@@ -4,7 +4,9 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -29,24 +31,22 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AppointmentList extends AppCompatActivity implements CustomAdapter.CustomButtonListener {
-
     private String URL = AppConfig.URL + "doctor/doctor_apponment.php";
-
     private ProgressDialog dialog;
-
     private ListView listView;
+    public TextView text;
     private List<DataAdapter> adapterArrayList;
     private CustomAdapter adapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_appointment_list);
-
         listView = (ListView) findViewById(R.id.listView);
+         text = findViewById(R.id.noapp);
         //adapter = new CustomAdapter(this, adapterArrayList);
         //adapter.setCustomButtonListener(this);
         //listView.setAdapter(adapter);
+
 
         // Load Json Data from Web
         loadDataFromWeb();
@@ -76,6 +76,7 @@ public class AppointmentList extends AppCompatActivity implements CustomAdapter.
             public void onResponse(String response) {
 
                 try {
+                    text.setVisibility(View.INVISIBLE);
                     adapterArrayList = new ArrayList<>();
 
                     JSONObject jsonObject = new JSONObject(response);
@@ -97,6 +98,7 @@ public class AppointmentList extends AppCompatActivity implements CustomAdapter.
                                 adapterArrayList.add(adapter);
 
                             } catch (JSONException ignored) {
+
                             }
                         }
                         // Update list view
@@ -126,6 +128,7 @@ public class AppointmentList extends AppCompatActivity implements CustomAdapter.
                     }
 
                 } catch (JSONException ignored) {
+                    text.setVisibility(View.VISIBLE);
                 }
 
             }

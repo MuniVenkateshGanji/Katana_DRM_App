@@ -25,10 +25,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <de.hdodenhof.circleimageview.CircleImageView
+            <ImageView
                 android:id="@+id/logo"
-                android:layout_width="154dp"
-                android:layout_height="152dp"
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
                 android:src="@drawable/logo" />
@@ -101,9 +101,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_margin="20dp"
-                            android:background="@drawable/round_button"
                             android:text="@string/Button"
-                            android:textColor="#ffffff" />
+                            android:fontFamily="@font/bold" />
 
                         <TextView
                             android:id="@+id/forgotpassword"

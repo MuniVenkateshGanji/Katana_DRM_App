@@ -3,6 +3,7 @@ package com.jntucep.c19_delhi;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -67,6 +68,19 @@ public class Login extends AppCompatActivity {
         Login.this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
 
         androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.logintoolbar);
+        int nightModeFlags =
+                toolbar.getContext().getResources().getConfiguration().uiMode &
+                        Configuration.UI_MODE_NIGHT_MASK;
+        switch (nightModeFlags) {
+            case Configuration.UI_MODE_NIGHT_YES:
+                toolbar.setBackgroundColor(getResources().getColor(R.color.black));
+                break;
+
+            case Configuration.UI_MODE_NIGHT_NO:
+                toolbar.setBackgroundColor(getResources().getColor(R.color.white));
+                break;
+
+        }
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("LOG IN");
 

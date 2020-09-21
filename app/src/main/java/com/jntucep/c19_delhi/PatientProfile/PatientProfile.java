@@ -15,7 +15,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.jntucep.c19_delhi.R;
-import com.jntucep.c19_delhi.Shareddoc;
+import com.jntucep.c19_delhi.shareddoc;
 import com.jntucep.c19_delhi.app.AppConfig;
 
 import org.json.JSONArray;
@@ -43,8 +43,8 @@ public class PatientProfile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patient_profile);
-        no = findViewById(R.id.no);
         ListView listView = findViewById(R.id.listView);
+        no = findViewById(R.id.no);
         adapter = new CustomAdapter(PatientProfile.this, adapterArrayList);
         listView.setAdapter(adapter);
 
@@ -128,7 +128,7 @@ public class PatientProfile extends AppCompatActivity {
                 // Posting params to register url
                 Map<String, String> parameters = new HashMap<>();
                 parameters.put("req_type", String.valueOf(4));
-                parameters.put("user_id", ((Shareddoc) PatientProfile.this.getApplication()).readData("user_id"));
+                parameters.put("user_id", ((shareddoc) PatientProfile.this.getApplication()).readData("user_id"));
 
                 return parameters;
             }

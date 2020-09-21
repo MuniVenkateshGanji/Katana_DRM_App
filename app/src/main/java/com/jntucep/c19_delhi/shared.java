@@ -18,10 +18,10 @@ public class shared extends AppCompatActivity {
 
         if (!Registered)
         {
-            startActivity(new Intent(this,survey.class));
+            startActivity(new Intent(this,register.class));
             finish();
         }else {
-            startActivity(new Intent(this,topbar.class));
+            startActivity(new Intent(this,PermissionsActivity.class));
             finish();
         }
     }

@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">C19_Delhi</string>
+    <string name="app_name">Katana</string>
     <string name="openNavDrawer">Navigation Drawer Open</string>
     <string name="closeNavDrawer">Navigation Drawer Close</string>
-    <string name="please_verify_your_number">Welcome to Karunya</string>
+    <string name="please_verify_your_number">Welcome</string>
     <string name="your_phone_number">Your Phone number!</string>
     <string name="action_sign_in">Log in!</string>
     <string name="otp">Enter Otp</string>
@@ -207,6 +207,4 @@
         <string name="for_direct_a_c_donation">For Direct A/C Donation</string>
         <string name="upi_pmnrf_centralbank">UPI: pmnrf@centralbank</string>
         <string name="cm_relief_fund">CM RELIEF FUND</string>
-
-
 </resources>

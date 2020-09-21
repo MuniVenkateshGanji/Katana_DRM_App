@@ -25,13 +25,6 @@ public class Settings extends AppCompatActivity {
             }
         });
 
-        terms = (LinearLayout)findViewById(R.id.terms);
-        terms.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Settings.this,Terms_conditions.class));
-            }
-        });
 
         support1 = (LinearLayout)findViewById(R.id.support5);
         support1.setOnClickListener(new View.OnClickListener() {

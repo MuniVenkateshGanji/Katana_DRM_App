@@ -10,7 +10,7 @@
     android:paddingLeft="50dp"
     android:paddingRight="50dp"
     android:paddingTop="16dp"
-    tools:context="com.covid.c19_ap.AdminLogin">
+    tools:context=".AdminLogin">
 
     <ImageView
         android:layout_width="206dp"

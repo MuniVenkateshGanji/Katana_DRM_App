@@ -35,7 +35,7 @@ public class tollFree extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
 
-                intent.setData(Uri.parse("tel: 011-22307145"));
+                intent.setData(Uri.parse("tel: 0866-2410978"));
                 if(ActivityCompat.checkSelfPermission(tollFree.this, Manifest.permission.CALL_PHONE)!= PackageManager.PERMISSION_GRANTED){
                     Toast.makeText(tollFree.this,"Please grant the permission",Toast.LENGTH_SHORT).show();
                     requestPermissions();

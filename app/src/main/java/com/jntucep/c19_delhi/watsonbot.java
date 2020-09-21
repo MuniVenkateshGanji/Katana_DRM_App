@@ -54,7 +54,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class watsonbot extends AppCompatActivity {
 
-
   private RecyclerView recyclerView;
   private ChatAdapter mAdapter;
   private ArrayList messageArrayList;

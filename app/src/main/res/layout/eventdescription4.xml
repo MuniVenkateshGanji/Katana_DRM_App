@@ -48,7 +48,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Location: "
-            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
 
@@ -69,7 +68,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Date: "
-            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -92,7 +90,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Payment:"
-            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -114,7 +111,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Event Description: "
-        android:textColor="@android:color/black"
         android:textSize="20sp" />
 
     <TextView
@@ -135,7 +131,6 @@
         android:layout_gravity="center_horizontal"
         android:id="@+id/Button_chatbox"
         android:backgroundTint="@color/blue800"
-        android:background="@drawable/round_button"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:textColor="#ffffff"/>
@@ -175,7 +170,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="@color/blue800"
-        android:background="@drawable/round_button"
         android:textColor="#ffffff"
         android:padding="20dp"
         android:text="Submit Review"/>

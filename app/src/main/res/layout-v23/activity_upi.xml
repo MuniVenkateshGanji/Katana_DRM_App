@@ -25,7 +25,7 @@
         android:layout_marginTop="20dp"
         android:id="@+id/upi_id"
         android:layout_below="@+id/amount_et"
-        android:text="lgcmdelhifund@cnrb"/>
+        android:text="apcmrelief@andb"/>
 
     <EditText
         android:layout_width="match_parent"

@@ -15,7 +15,6 @@
         android:layout_height="wrap_content"
         android:text="TextView"
         android:textSize="30sp"
-        android:textColor="@android:color/black"
         android:textAlignment="center"/>
     <Space
         android:layout_width="match_parent"
@@ -32,7 +31,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Location: "
-            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
 
@@ -53,7 +51,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Date: "
-            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -76,7 +73,6 @@
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:text="Approved: "
-         android:textColor="@android:color/black"
          android:textSize="20sp"/>
 
         <TextView
@@ -98,7 +94,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Event Description: "
-        android:textColor="@android:color/black"
         android:textSize="20sp" />
 
     <TextView

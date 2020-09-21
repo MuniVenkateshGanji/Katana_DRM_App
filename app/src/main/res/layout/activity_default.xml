@@ -43,7 +43,7 @@
         android:layout_marginBottom="114dp"
 
         android:text="     In this you can host an event or be an Food supplier, health worker and essential worker \n\n\t\t\t\t                #GetStarted"
-        android:textColor="@color/AppDark"
+
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

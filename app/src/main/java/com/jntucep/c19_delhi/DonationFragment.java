@@ -75,6 +75,7 @@ public class DonationFragment extends Fragment {
         arrayList_Funds.add("PM CARES");
         arrayList_Funds.add("PM NATIONAL RELIEF FUND");
         arrayList_Funds.add("CM RELIEF FUND");
+        arrayList_Funds.add("Orphans");
 
         arrayAdapter_Funds=new ArrayAdapter<>(Objects.requireNonNull(getContext()),android.R.layout.simple_spinner_dropdown_item,arrayList_Funds);
 
@@ -106,6 +107,16 @@ public class DonationFragment extends Fragment {
 
                     Intent intent = new Intent(getActivity(),
                             CMRF.class);
+                    startActivity(intent);
+
+                }
+
+                if(position==4) {
+
+
+
+                    Intent intent = new Intent(getActivity(),
+                            orphans.class);
                     startActivity(intent);
 
                 }

@@ -192,16 +192,7 @@ public class Profile extends AppCompatActivity {
         });
 
 
-        LinearLayout wallet=(LinearLayout)findViewById(R.id.profilewallet);
-        wallet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Profile.this, Wallet.class);
-                startActivity(intent);
 
-
-            }
-        });
         LinearLayout events=(LinearLayout)findViewById(R.id.profilemyevents);
         events.setOnClickListener(new View.OnClickListener() {
             @Override

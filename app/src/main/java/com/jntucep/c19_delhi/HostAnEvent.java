@@ -1,6 +1,7 @@
 package com.jntucep.c19_delhi;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -50,6 +51,19 @@ public class HostAnEvent extends AppCompatActivity {
         setContentView(R.layout.activity_hostanevent);
 
         androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
+        int nightModeFlags =
+                toolbar.getContext().getResources().getConfiguration().uiMode &
+                        Configuration.UI_MODE_NIGHT_MASK;
+        switch (nightModeFlags) {
+            case Configuration.UI_MODE_NIGHT_YES:
+                toolbar.setBackgroundColor(getResources().getColor(R.color.black));
+                break;
+
+            case Configuration.UI_MODE_NIGHT_NO:
+                toolbar.setBackgroundColor(getResources().getColor(R.color.white));
+                break;
+
+        }
         setSupportActionBar(toolbar);
         setTitle("Host An Event");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

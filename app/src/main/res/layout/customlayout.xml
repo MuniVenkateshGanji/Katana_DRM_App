@@ -31,7 +31,6 @@
             android:layout_marginRight="28dp"
             android:text="TextView"
             android:textAllCaps="true"
-            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
         <RatingBar
@@ -54,7 +53,6 @@
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="11dp"
-
         android:text="TextView"
         android:textSize="18sp"/>
 

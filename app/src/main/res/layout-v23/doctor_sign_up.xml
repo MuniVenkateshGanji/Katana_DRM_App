@@ -6,12 +6,11 @@
     android:id="@+id/check"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context="com.example.katana.DoctorSignUp">
+    tools:context=".DoctorSignUp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -180,7 +179,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Select Division :"
-                        android:textColor="#000"
+
                         android:textSize="16sp" />
 
                     <View
@@ -201,7 +200,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:text="Select District :"
-                        android:textColor="#000"
                         android:textSize="16sp" />
 
                     <View
@@ -251,7 +249,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Specialist on?"
-                        android:textColor="#000"
                         android:textSize="16sp" />
 
                     <View

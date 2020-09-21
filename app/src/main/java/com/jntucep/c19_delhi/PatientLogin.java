@@ -85,8 +85,8 @@ public class PatientLogin extends AppCompatActivity {
                     if (!error){
                         startActivity(new Intent(getApplicationContext(), PatientProfile.class));
                         //Store All Data
-                        ((Shareddoc) PatientLogin.this.getApplication()).storeData("true", "session", PatientLogin.this);
-                        ((Shareddoc) PatientLogin.this.getApplication()).storeData(jsonObject.getString("user_id"), "user_id", PatientLogin.this);
+                        ((shareddoc) PatientLogin.this.getApplication()).storeData("true", "session", PatientLogin.this);
+                        ((shareddoc) PatientLogin.this.getApplication()).storeData(jsonObject.getString("user_id"), "user_id", PatientLogin.this);
 
                         finish();
 

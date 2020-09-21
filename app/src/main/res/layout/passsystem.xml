@@ -31,30 +31,47 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/Transport" />
 
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:text="Pass System"
+                android:fontFamily="@font/koho_bold"
+                android:textSize="24dp"
+                app:layout_constraintBottom_toTopOf="@+id/Transport"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
             <Button
                 android:id="@+id/Transport"
                 android:layout_width="173dp"
                 android:layout_height="53dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="72dp"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="62dp"
+                android:layout_marginBottom="24dp"
                 android:text="Transport"
                 app:layout_constraintBottom_toTopOf="@+id/Essential"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="144dp"
                 android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="16dp"
                 android:src="@drawable/logo"
                 app:layout_constraintBottom_toTopOf="@+id/Transport"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.44" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

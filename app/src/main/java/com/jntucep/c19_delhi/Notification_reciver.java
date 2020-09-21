@@ -18,7 +18,7 @@ import androidx.core.app.NotificationCompat;
         Intent repeating_intent = new Intent(context, survey.class);
         repeating_intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 100, repeating_intent, PendingIntent.FLAG_UPDATE_CURRENT);
-        String NOTIFICATION_CHANNEL_ID = "c19_delhi";
+        String NOTIFICATION_CHANNEL_ID = "Katana";
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel notificationChannel = new NotificationChannel(NOTIFICATION_CHANNEL_ID, "my notification",

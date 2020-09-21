@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/0218bfe1c4a826a506087500599588a8/jetified-core-10.0.5/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/0218bfe1c4a826a506087500599588a8/jetified-core-10.0.5/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/0218bfe1c4a826a506087500599588a8/jetified-core-10.0.5/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/de7364adbd18c6126e0598091bdc5fe1/jetified-core-10.0.5/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/de7364adbd18c6126e0598091bdc5fe1/jetified-core-10.0.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/transforms-2/files-2.1/de7364adbd18c6126e0598091bdc5fe1/jetified-core-10.0.5/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../gradle-6.3-all/gradle-6.3/caches/modules-2/files-2.1/com.pierfrancescosoffritti.androidyoutubeplayer/core/10.0.5/137a7c4ba8f0e25e996737a17cd1953c1380f72b/core-10.0.5-javadoc.jar!/" />

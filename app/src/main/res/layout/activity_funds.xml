@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".topbar"
+    android:scrollbars="none"
     >
 
     <LinearLayout
@@ -101,10 +102,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
-                    android:text="funds"
-                    android:textColor="#FE1C1C1C"
+                    android:text="Funds"
                     android:textSize="25sp"
-                    android:textStyle="bold|italic"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toTopOf="@+id/sp_Funds"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"

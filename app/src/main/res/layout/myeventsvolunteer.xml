@@ -15,9 +15,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/blue700"
         android:elevation="4dp"
-        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/AlertDialog.AppCompat.Light"
 
      />
@@ -41,7 +39,6 @@
         android:layout_weight="1"
         android:text="@string/approved"
         android:clickable="true"
-        android:background="@drawable/round_button"
         android:layout_gravity="left"/>
 
     <Button
@@ -52,7 +49,7 @@
         android:text="@string/waitlisted"
         android:layout_gravity="right"
         android:clickable="true"
-        android:background="@drawable/round_button"/>
+        />
 
     </LinearLayout>
 

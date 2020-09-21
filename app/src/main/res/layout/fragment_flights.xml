@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     tools:context=".FlightsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
 
 <include layout="@layout/activity_news"/>
 </FrameLayout>

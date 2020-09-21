@@ -1,6 +1,7 @@
 package com.jntucep.c19_delhi;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,6 +41,19 @@ public class Waitlisted extends AppCompatActivity {
         androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         setTitle("UnApproved Events");
+        int nightModeFlags =
+                toolbar.getContext().getResources().getConfiguration().uiMode &
+                        Configuration.UI_MODE_NIGHT_MASK;
+        switch (nightModeFlags) {
+            case Configuration.UI_MODE_NIGHT_YES:
+                toolbar.setBackgroundColor(getResources().getColor(R.color.black));
+                break;
+
+            case Configuration.UI_MODE_NIGHT_NO:
+                toolbar.setBackgroundColor(getResources().getColor(R.color.white));
+                break;
+
+        }
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         final Button button_a = (Button) findViewById(R.id.button_approved);

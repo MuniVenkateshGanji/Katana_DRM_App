@@ -1,10 +1,13 @@
 package com.jntucep.c19_delhi;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.badge.BadgeDrawable;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.tabs.TabLayout;
 
@@ -33,15 +36,28 @@ public class topbar extends AppCompatActivity implements NavigationView.OnNaviga
     private FlightsFragment flightsFragment;
     private TravelFragment travelFragment;
     private DonationFragment donationFragment;
-
+    private FloatingActionButton floatingButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tobpar);
 
         toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        int nightModeFlags =
+                toolbar.getContext().getResources().getConfiguration().uiMode &
+                        Configuration.UI_MODE_NIGHT_MASK;
+        switch (nightModeFlags) {
+            case Configuration.UI_MODE_NIGHT_YES:
+                toolbar.setBackgroundColor(getResources().getColor(R.color.quantum_black_secondary_text));
+                break;
 
+            case Configuration.UI_MODE_NIGHT_NO:
+                toolbar.setBackgroundColor(getResources().getColor(R.color.white));
+                break;
+
+        }
+        setSupportActionBar(toolbar);
+        floatingButton = findViewById(R.id.floatingButton);
         viewPager = findViewById(R.id.view_pager);
         tabLayout = findViewById(R.id.tab_layout);
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -78,6 +94,15 @@ public class topbar extends AppCompatActivity implements NavigationView.OnNaviga
         tabLayout.getTabAt(3).setIcon(R.drawable.ic_baseline_people_24);
         BadgeDrawable badgeDrawable = tabLayout.getTabAt(0).getOrCreateBadge();
         badgeDrawable.setVisible(false);
+        floatingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(topbar.this,watsonbot.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 
     @Override
@@ -124,7 +149,7 @@ public class topbar extends AppCompatActivity implements NavigationView.OnNaviga
 
     }
     public void maps(MenuItem item) {
-        Intent intent = new Intent(topbar.this,PermissionsActivity.class);
+        Intent intent = new Intent(topbar.this,MapsActivity.class);
         startActivity(intent);
     }
     public void helpline(MenuItem item) {
@@ -143,10 +168,10 @@ public class topbar extends AppCompatActivity implements NavigationView.OnNaviga
         Intent intent = new Intent(topbar.this,E_pass.class);
         startActivity(intent);
     }
-    public void talk(MenuItem item) {
+    /*public void talk(MenuItem item) {
         Intent intent = new Intent(topbar.this,watsonbot.class);
         startActivity(intent);
-    }
+    }*/
     public void Msme(MenuItem item) {
         Intent intent = new Intent(topbar.this,Msme.class);
         startActivity(intent);

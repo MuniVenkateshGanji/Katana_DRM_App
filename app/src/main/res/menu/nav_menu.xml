@@ -23,10 +23,10 @@
                 android:icon="@drawable/ic_account_circle_black_24dp"
                 android:onClick="Msme"/>
 
-            <item android:title="Let's talk"
+          <!--> <item android:title="Let's talk"
 
                 android:icon="@drawable/ic_chat_bubble_black_24dp"
-                android:onClick="talk"/>
+                android:onClick="talk"/>-->
 
             <item android:title="E-pass"
 

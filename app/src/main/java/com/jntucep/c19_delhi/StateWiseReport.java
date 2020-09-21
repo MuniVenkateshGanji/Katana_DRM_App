@@ -43,7 +43,7 @@ public class StateWiseReport extends AppCompatActivity {
             @Override
             public void onResponse(JSONObject response) {
                 try {
-                    JSONObject state =response.getJSONObject("Delhi");
+                    JSONObject state =response.getJSONObject("Andhra Pradesh");
                     JSONObject districtData=state.getJSONObject("districtData");
 
                     JSONArray keys=districtData.names();
